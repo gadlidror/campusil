@@ -1,0 +1,6 @@
+pip==25.3
+numpy
+pandas
+scikit-learn
+matplotlib
+random
