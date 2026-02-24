@@ -1,9 +1,9 @@
 Metadata-Version: 2.4
-Name: CampusIL
-Version: 0.2.3
+Name: campusil
+Version: 0.2.5
 Summary: Pre-requisites code for campus.gov.il deep learning course, by the ministry of education, Israel
 Author-email: Gad Lidror <gady.lidror@gmail.com>
-Project-URL: Homepage, https://github.com/gadlidror/CampusIL
+Project-URL: Homepage, https://github.com/gadlidror/campusil
 Requires-Python: >=3.10
 Description-Content-Type: text/markdown
 License-File: LICENSE

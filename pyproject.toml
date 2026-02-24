@@ -9,8 +9,8 @@ package-dir = {"" = "src"}
 where = ["src"]
 
 [project]
-name = "CampusIL"
-version = "0.2.4"
+name = "campusil"
+version = "0.2.5"
 authors = [
   { name="Gad Lidror", email="gady.lidror@gmail.com" }
 ]
@@ -23,4 +23,4 @@ dependencies = ["numpy",
 ]
 
 [project.urls]
-Homepage = "https://github.com/gadlidror/CampusIL"
+Homepage = "https://github.com/gadlidror/campusil"

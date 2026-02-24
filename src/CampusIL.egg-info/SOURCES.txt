@@ -12,3 +12,8 @@ src/CampusIL.egg-info/top_level.txt
 src/campusil/__init__.py
 src/campusil/func_families.py
 src/campusil/utils.py
+src/campusil.egg-info/PKG-INFO
+src/campusil.egg-info/SOURCES.txt
+src/campusil.egg-info/dependency_links.txt
+src/campusil.egg-info/requires.txt
+src/campusil.egg-info/top_level.txt
