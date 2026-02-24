@@ -3,8 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import random
 
-#from .utils import _expect_assert
-from .utils import *
-from .FunFamilies import *
+from .utils import expect_assert
+#from .func_families import *
 
-__all__ = ["_expect_assert", "Line", "Square", "Poli"]
+
+__all__ = ["expect_assert"]
+#__all__ = ["expect_assert", "Line", "Square", "Poli"]

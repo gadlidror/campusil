@@ -10,7 +10,7 @@ where = ["src"]
 
 [project]
 name = "CampusIL"
-version = "0.1.6"
+version = "0.2.1"
 authors = [
   { name="Gad Lidror", email="gady.lidror@gmail.com" }
 ]
@@ -19,7 +19,6 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["numpy", 
 				"pandas", 
-				"scikit-learn", 
 				"matplotlib"
 ]
 

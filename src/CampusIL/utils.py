@@ -1,5 +1,5 @@
 
-def _expect_assert(fn, *args):
+def expect_assert(fn, *args):
   try:
     fn(*args)
   except AssertionError:
