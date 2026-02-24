@@ -10,7 +10,7 @@ where = ["src"]
 
 [project]
 name = "CampusIL"
-version = "0.2.1"
+version = "0.2.2"
 authors = [
   { name="Gad Lidror", email="gady.lidror@gmail.com" }
 ]
