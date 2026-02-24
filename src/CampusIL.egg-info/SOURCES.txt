@@ -3,6 +3,7 @@ README.md
 pyproject.toml
 src/CampusIL/CampusIL.py
 src/CampusIL/__init__.py
+src/CampusIL/utils.py
 src/CampusIL.egg-info/PKG-INFO
 src/CampusIL.egg-info/SOURCES.txt
 src/CampusIL.egg-info/dependency_links.txt
