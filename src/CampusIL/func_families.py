@@ -60,17 +60,3 @@ class Poli():
         result = result * x + a
     return result
 
-"""
-# Function Family of Loss (error) functions
-class Loss():
-  def __init__(self, xi, yi):  # a, b, c must be numbers
-    assert isinstance(xi, (int, float)), "a should be a number"
-    assert isinstance(yi, (int, float)), "b should be a number"
-
-    self._xi = xi
-    self._yi = yi
-
-  #def __str__(self):
-  #  return f'xi = {self._xi}, yi = {self._yi}'
-    def __call__(self, y_real, y_pred):
-"""
