@@ -34,9 +34,9 @@ class Square():
     return self._a*x**2 + self._b*x + self._c
 
 
-# Function Family of a polinom
-class Poli():
-  def __init__(self, W, b):  # a, b, c must be numbers
+# Function Family of a polynom
+class Poly():
+  def __init__(self, W, b):  # W is a list of parameters, b is a number
     assert isinstance(W, list), "W is a list of parameters"
     assert isinstance(b, (int, float)), "b should be a number"
     assert (isinstance(x, (int, float)) for x in W), "W elements must be numbers"
@@ -56,9 +56,9 @@ class Poli():
     x: מספר
     """
     result = 0
-    for a in reversed(W):
+    for a in reversed(self._W):
         result = result * x + a
-    return result
+    return result + self._b
 
 """
 # Function Family of Loss (error) functions

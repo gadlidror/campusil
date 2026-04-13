@@ -8,4 +8,4 @@ from .func_families import Line, Square, Poli
 
 
 #__all__ = ["expect_assert"]
-__all__ = ["expect_assert", "Line", "Square", "Poli"]
+__all__ = ["expect_assert", "Line", "Square", "Poly"]
