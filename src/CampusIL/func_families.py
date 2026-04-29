@@ -44,21 +44,21 @@ class Poly():
     self._W = W.copy()  # avois aliasing the input list
     self._W.insert(0, b)    # add the bias term to the list of parameters
 
-  def __str__(self):
-    return f'a = {self._W}, b = {self._b}, c = {self._c}'
-
   def __call__(self, x):
     """
     Compute the polinum when the parameters are 
     W ( a list of parameters), and b, and the input is x.
-    W: [a0, a1, a2, ...] כלומר a0*x + a1*x^2 + ...
-    b: a number, the bias term
+    W: [a0, a1, a2, ...] כלומר a0 + a1*x + a2*x^2 + ...
+    b: a number, the bias term == a0
     x: מספר
     """
+    pow = range(len(self._W))
     result = 0
-    for a in reversed(self._W):
-        result = result * x + a
-    return result + self._b
+    for p in pow:
+        result += self._W[p] * x ** p
+    return result
+
+
 
 """
 # Function Family of Loss (error) functions
